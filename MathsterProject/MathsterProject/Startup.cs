@@ -22,7 +22,7 @@ namespace MathsterProject
         {
             if (env.IsDevelopment())
             {
-                app.UseDeveloperExceptionPage();
+                app.UseDeveloperExceptionPage(); //hej
             }
 
             app.Run(async (context) =>
